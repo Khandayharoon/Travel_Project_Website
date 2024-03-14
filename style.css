@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'poppins'; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner css */
+.Banner
+{
+    width: 100%;
+    height: 90vh;
+    background-color: gray;
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header
+{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+
+}
+
+.logo
+{
+    width: 10%;
+    height: 70px;
+    /* background-color: yellow;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+}
+.logo-text{
+    width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.nav
+{
+    width: 45%;
+    /* background-color: blue; */
+    height: 70px;
+}
+
+.nav-links
+{
+    width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'poppins';
+
+}
+.nav-link
+{
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.nav-link:hover
+{
+    background-color: black;
+    color: white;
+}
+
+/* Banner-details css */
+
+.Banner-details
+{
+    width: 100%;
+    /* background-color: white; */
+    padding: 20px 15%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.badge
+{
+    /* width: 70%; */
+    width: max-content;
+    padding: 10px 20px;
+    background-color: lightgray;
+    font-family: 'poppins';
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.Banner-heading
+{
+    font-size: 83px;
+    font-family: 'poppins';
+    color: white;
+}
+.btn
+{
+    padding: 18px 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
